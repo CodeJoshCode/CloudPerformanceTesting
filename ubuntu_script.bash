@@ -1,3 +1,4 @@
+#!/bin/bash
 # sed -i -e 's/\r$//' ./test_script.bash
 # linuxify this script - head -1 ./test_script.bash
 # Install fio and run the io tests for 2Gib and 5Gib.
