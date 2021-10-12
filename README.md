@@ -11,6 +11,7 @@ chmod 755 ubuntu_script.bash
 
 That's all!
 My next steps are getting output options such as csv, command parameters to tweak the tests, and writing/testing scripts for other Operating Systems.
+TODO: Add a timer to collect the time it takes to run fio and passmark tests.
 
 Cheers,
 Josh
