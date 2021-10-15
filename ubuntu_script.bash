@@ -44,7 +44,7 @@ echo "disk latency test 3 runtime: $test_3_runtime" >> results_file
 # Install passmark tests
 curl https://www.passmark.com/downloads/pt_linux_x64.zip --output passmark.zip
 sudo apt install -y unzip
-unzip ./passmark.zip
+unzip -y ./passmark.zip
 
 # time passmark tests
 start=`date +%s`
