@@ -3,6 +3,8 @@ Script to test the performance of a cloud instance. Testing IOPS, Disk Latency, 
 
 Currently available for Debian based linux instances, tested on Ubuntu 18.04.
 
+I am sending results to a NextCloud instance via WebDAV. I will make this optional asap, as well as making other changes for usability/flexibility/extensibility (in that order).
+
 ## Usage
 1. Clone the repo. git clone https://github.com/CodeJoshCode/CloudPerformanceTesting.git
 
@@ -12,7 +14,7 @@ PWD=nextcloud-password
 results_file_location_nextcloud=nextcloud-folder-location
 TODO: examples
 
-3. Run the script and the results will appear in a file labeled with a unix timestamp of when the test ran.
+3. Run the script and the results will appear in a file labeled with the current date and time of when the test ran.
 
 That's all!
 My next steps are getting output options such as csv, command parameters to tweak the tests, and writing/testing scripts for other Operating Systems.
