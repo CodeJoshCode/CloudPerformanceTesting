@@ -32,7 +32,7 @@ rm random_read_write.fio
 # finish collecting runtime
 end=`date +%s`
 test_2_runtime=$((end-start))
-echo "fio test 2 runtime: $test_2_runtime" >> $results_file_locatione
+echo "fio test 2 runtime: $test_2_runtime" >> $results_file_location
 
 # time disk latency test
 start=`date +%s`
